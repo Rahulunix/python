@@ -5,7 +5,7 @@ num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
 oper = input("Select any from the given operators: *,/,+,- : ")
 
-if (num1 == 45 and num2 == 3 and oper == "*")or (num1 == 3 and num2 == 45 and oper == "*") :
+if (num1 == 45 and num2 == 3 and oper == "*") or (num1 == 3 and num2 == 45 and oper == "*") :
     print("555")
 elif (num1 == 56 and num2 == 9 and oper == "+") or (num1 == 9 and num2 == 56 and oper == "+"):
     print("77")
